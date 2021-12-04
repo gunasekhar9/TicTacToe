@@ -9,6 +9,7 @@ namespace TicTacToe
             Console.WriteLine("Hello World!");
             GameClass game = new GameClass();
             char[] board = game.Initial();
+            char player = game.Playerchoosing();
         }
     }
 }
