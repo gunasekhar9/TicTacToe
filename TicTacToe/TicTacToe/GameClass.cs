@@ -23,15 +23,15 @@ namespace TicTacToe
         }
         public void Display()
         {
-            Console.WriteLine("     |     |      ");
+            Console.WriteLine("     |     |     ");
             Console.WriteLine("  {0}  |  {1}  |  {2}", board[1], board[2], board[3]);
-            Console.WriteLine("__|_|__ ");
-            Console.WriteLine("     |     |      ");
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |     ");
             Console.WriteLine("  {0}  |  {1}  |  {2}", board[4], board[5], board[6]);
-            Console.WriteLine("__|_|__ ");
-            Console.WriteLine("     |     |      ");
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |     ");
             Console.WriteLine("  {0}  |  {1}  |  {2}", board[7], board[8], board[9]);
-            Console.WriteLine("     |     |      ");
+            Console.WriteLine("     |     |     ");
         }
     }
 }
